@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="container mx-auto flex flex-wrap p-5 items-center justify-between">
         {/* Logo */}
         <Link
-          to="#"
+          to="/"
           className="flex title-font font-medium items-center text-white"
         >
           <img
@@ -42,32 +42,31 @@ const Navbar = () => {
             {isDropdownOpen && (
               <div className="absolute mt-2 w-60 h-44 hover:text-orange-500 bg-white shadow-lg rounded-md z-10">
                 <Link
-                  to="#"
-                  className="block px-4  text-md mt-2 py-2 text-gray-800 text-1xl h-11 hover:text-orange-500 flex justify-between items-center"
+                  to="/cook-for-month"
+                  className="block px-4 text-md mt-2 py-2 text-gray-800 text-1xl h-11 hover:text-orange-500 flex justify-between items-center"
                   onClick={() => setIsDropdownOpen(false)}
                 >
                   Cook for a month
                   <FaChevronRight className="ml-2" />
                 </Link>
-                <hr/>
+                <hr />
                 <Link
-                  to="#"
-                  className="block px-4  text-md py-2 mt-2 text-gray-800 text-1xl h-11 hover:text-orange-500 flex justify-between items-center"
+                  to="/one-time-cook"
+                  className="block px-4 text-md py-2 mt-2 text-gray-800 text-1xl h-11 hover:text-orange-500 flex justify-between items-center"
                   onClick={() => setIsDropdownOpen(false)}
                 >
-                  Cheift: One time cook
+                  Chief: One time cook
                   <FaChevronRight className="ml-2" />
                 </Link>
-                <hr/>
-                 <Link
-                  to="#"
+                <hr />
+                <Link
+                  to="/chef-for-party"
                   className="block px-4 text-md py-2 mt-2 text-gray-800 text-1xl h-11 hover:text-orange-500 flex justify-between items-center"
                   onClick={() => setIsDropdownOpen(false)}
                 >
                   Chef for Party
                   <FaChevronRight className="ml-2" />
                 </Link>
-              
               </div>
             )}
           </div>
@@ -79,7 +78,7 @@ const Navbar = () => {
           </Link>
         </nav>
 
-        {/* Hamburger Menu Button */}
+        {/* Hamburger Menu Button (Only visible on mobile) */}
         <button
           className="md:hidden text-white focus:outline-none"
           onClick={toggleMenu}
@@ -99,21 +98,18 @@ const Navbar = () => {
               onClick={toggleMenu}
               aria-label="Close Menu"
             >
-              <GiTireIronCross className="w-10 h-10 text-white" />
+              <GiTireIronCross className="w-10 h-10 rounded-lg text-white" />
             </button>
 
             {/* Mobile Menu Links */}
-            
-
-           
             <Link
               to="#"
               className="mb-4 font-bold text-white text-lg"
               onClick={toggleMenu}
             >
-             About us
+              About us
             </Link>
-            <hr/>
+            <hr />
             <Link
               to="#"
               className="mb-4 font-bold text-white text-lg"
@@ -121,31 +117,31 @@ const Navbar = () => {
             >
               Blog
             </Link>
-            <hr/>
+            <hr />
             <Link
               to="#"
               className="mb-4 font-bold text-white text-lg"
               onClick={toggleMenu}
             >
-             Career
+              Career
             </Link>
-            <hr/>
+            <hr />
             <Link
               to="#"
               className="mb-4 font-bold text-white text-lg"
               onClick={toggleMenu}
             >
-             Investors Relation
+              Investors Relation
             </Link>
-            <hr/>
+            <hr />
             <Link
               to="#"
               className="mb-4 font-bold text-white text-lg"
               onClick={toggleMenu}
             >
-             Testimonials
+              Testimonials
             </Link>
-            <hr/>
+            <hr />
             {/* Contact Us Button */}
             <button className="mt-4 inline-flex items-center bg-orange-500 border-0 py-2 px-4 focus:outline-none rounded text-white text-lg">
               Contact Us

@@ -19,57 +19,57 @@ const Footer = () => {
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-bold  text-gray-900 tracking-widest text-md mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
-            <Link to="#" class="text-gray-600 hover:text-gray-800">
+            <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">
             Cook for a Month</Link>
           </li>
           <li>
-            <Link to="#" class="text-gray-600 hover:text-gray-800">Blog</Link>
+            <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">Blog</Link>
           </li>
           <li>
-            <Link to="#" class="text-gray-600 hover:text-gray-800">About us</Link>
+            <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">About us</Link>
           </li>
          
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-bold text-gray-900 tracking-widest text-md mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
-            <Link to="#" class="text-gray-600 hover:text-gray-800">Chefit: One-Time Cook
+            <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">Chefit: One-Time Cook
             </Link>
           </li>
           <li>
-            <Link to="#" class="text-gray-600 hover:text-gray-800">ChefKart से जुड़ें</Link>
+            <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">ChefKart से जुड़ें</Link>
           </li>
           <li>
-            <Link to="#" class="text-gray-600 hover:text-gray-800">Cooks Near me</Link>
+            <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">Cooks Near me</Link>
           </li>
         
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-bold text-gray-900 tracking-widest text-md mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
-            <Link to="#" class="text-gray-600 hover:text-gray-800">Chef for Party</Link>
+            <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">Chef for Party</Link>
           </li>
           <li>
-            <Link to="#" class="text-gray-600 hover:text-gray-800">Contact</Link>
+            <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">Contact</Link>
           </li>
           
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font  text-gray-900 tracking-widest font-bold text-md mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10">
           <li>
-            <Link to="#" class="text-gray-600 hover:text-gray-800">Privacy Policy</Link>
+            <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">Privacy Policy</Link>
           </li>
           <li>
-            <Link to="#" class="text-gray-600 hover:text-gray-800">Terms of Servicek</Link>
+            <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">Terms of Servicek</Link>
           </li>
           
         </nav>
@@ -78,7 +78,7 @@ const Footer = () => {
   </div>
   <div class="bg-gray-100">
     <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p class="text-black  font-bold text-sm text-center sm:text-left ">Copyright 2024 ChefKart Hospitality Pvt Ltd.
+      <p class="text-black  font-bold text-md text-center sm:text-left ">Copyright 2024 ChefKart Hospitality Pvt Ltd.
        
       </p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
