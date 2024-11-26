@@ -13,7 +13,7 @@ const Navbar = () => {
   const toggleDropdown = () => setIsDropdownOpen((prev) => !prev);
 
   return (
-    <header className="bg-gray-500 body-font shadow-md">
+    <header className="bg-black body-font shadow-md">
       <div className="container mx-auto flex flex-wrap p-5 items-center justify-between">
         {/* Logo */}
         <Link
@@ -21,7 +21,7 @@ const Navbar = () => {
           className="flex title-font font-medium items-center text-white"
         >
           <img
-            src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FLogo_black_0c2ca67725.webp&w=1920&q=75"
+            src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FLogo_White_9fd26be901.webp&w=1920&q=75"
             alt="Logo"
             className="w-48 h-auto"
           />
@@ -70,7 +70,7 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link to="#" className="mr-5 text-2xl text-white hover:underline">
+          <Link to="join-chefkart" className="mr-5 text-2xl text-white hover:underline">
             ChefKart से जुड़ें
           </Link>
           <Link to="#" className="mr-5 text-2xl text-white hover:underline">
