@@ -17,7 +17,10 @@ module.exports = {
         wider: '.05em',
         widest: '.1em',
         widest: '.25em',
-      }
+      },
+      width: {
+        '95rem': '95rem',
+      },
 
 
     },
